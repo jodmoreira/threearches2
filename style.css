@@ -102,6 +102,15 @@ nav a:hover {
   margin: 0 auto 1.5rem;
 }
 
+.founder {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  color: var(--color-accent-dark);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
 .tagline {
   font-family: var(--font-sans);
   font-size: 1rem;
