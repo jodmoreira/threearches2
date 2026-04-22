@@ -322,6 +322,22 @@ nav a:hover {
   color: var(--color-text);
 }
 
+/* BOOKING */
+.booking-frame {
+  margin-top: 1.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.booking-frame iframe {
+  display: block;
+  width: 100%;
+  min-height: 900px;
+  border: 0;
+}
+
 /* FOOTER */
 footer {
   background: var(--color-accent-dark);
