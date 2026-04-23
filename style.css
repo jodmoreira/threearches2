@@ -81,6 +81,25 @@ nav a:hover {
   color: var(--color-accent-dark);
 }
 
+.nav-book {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background: var(--color-accent-dark);
+  color: #fff !important;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.nav-book:hover {
+  background: var(--color-accent);
+  color: #fff !important;
+}
+
 /* CONTAINER */
 .container {
   max-width: var(--max-width);
@@ -338,6 +357,12 @@ nav a:hover {
   border: 0;
 }
 
+@media (max-width: 768px) {
+  .booking-frame iframe {
+    min-height: 1200px;
+  }
+}
+
 /* FOOTER */
 footer {
   background: var(--color-accent-dark);
@@ -352,6 +377,15 @@ footer {
 @media (max-width: 768px) {
   nav ul {
     display: none;
+  }
+
+  .nav-book {
+    padding: 0.45rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .logo img {
+    height: 32px;
   }
 
   .service-detail {
